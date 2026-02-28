@@ -1,0 +1,25 @@
+# Quantum Computing Framework
+qiskit==2.2.3
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.44.0
+
+# Numerical Computing
+numpy==2.4.0
+
+# Scientific Computing
+scipy==1.16.3
+
+# Visualization
+matplotlib==3.10.8
+pylatexenc==2.10
+
+# Jupyter Support
+jupyter==1.1.1
+ipykernel==7.1.0
+ipywidgets==8.1.8
+
+# Optional: For better circuit visualization
+pillow==12.0.0
+
+# Optional: For progress bars
+tqdm==4.67.1
