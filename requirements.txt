@@ -22,4 +22,4 @@ ipywidgets==8.1.8
 pillow==12.2.0
 
 # Optional: For progress bars
-tqdm==4.67.1
+tqdm==4.67.3
