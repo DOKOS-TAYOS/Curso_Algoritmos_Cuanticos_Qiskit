@@ -12,10 +12,12 @@ scipy==1.17.1
 # Visualization
 matplotlib==3.10.9
 pylatexenc==2.10
+quantum-circuit-drawer==1.0.0
 
 # Jupyter Support
 jupyter==1.1.1
 ipykernel==7.2.0
+ipympl==0.10.0
 ipywidgets==8.1.8
 
 # Optional: For better circuit visualization
