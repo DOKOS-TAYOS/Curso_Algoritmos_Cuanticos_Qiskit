@@ -1,7 +1,7 @@
 # Quantum Computing Framework
-qiskit==2.2.3
+qiskit==2.4.1
 qiskit-aer==0.17.2
-qiskit-ibm-runtime==0.44.0
+qiskit-ibm-runtime==0.47.0
 
 # Numerical Computing
 numpy==2.4.4
