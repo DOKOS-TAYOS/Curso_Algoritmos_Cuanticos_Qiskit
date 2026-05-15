@@ -4,13 +4,13 @@ qiskit-aer==0.17.2
 qiskit-ibm-runtime==0.44.0
 
 # Numerical Computing
-numpy==2.4.0
+numpy==2.4.4
 
 # Scientific Computing
-scipy==1.16.3
+scipy==1.17.1
 
 # Visualization
-matplotlib==3.10.8
+matplotlib==3.10.9
 pylatexenc==2.10
 
 # Jupyter Support
