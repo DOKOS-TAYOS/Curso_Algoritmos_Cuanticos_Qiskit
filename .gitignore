@@ -25,6 +25,18 @@ venv/
 ENV/
 env/
 .venv
+.venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -50,4 +62,11 @@ qiskit.log
 *.tmp
 *.bak
 *.log
+
+# Test and coverage artifacts
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
 

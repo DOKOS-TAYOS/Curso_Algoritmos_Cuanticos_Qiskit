@@ -1,0 +1,40 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Europe/Madrid"
+    open-pull-requests-limit: 5
+    groups:
+      qiskit-stack:
+        patterns:
+          - "qiskit*"
+      notebooks:
+        patterns:
+          - "jupyter"
+          - "ipykernel"
+          - "ipywidgets"
+      scientific-python:
+        patterns:
+          - "numpy"
+          - "scipy"
+          - "matplotlib"
+          - "pillow"
+    labels:
+      - "dependencies"
+      - "python"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:30"
+      timezone: "Europe/Madrid"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
