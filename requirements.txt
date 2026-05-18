@@ -4,7 +4,7 @@ qiskit-aer==0.17.2
 qiskit-ibm-runtime==0.47.0
 
 # Numerical Computing
-numpy==2.4.4
+numpy==2.4.5
 
 # Scientific Computing
 scipy==1.17.1
