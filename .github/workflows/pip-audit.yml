@@ -1,11 +1,13 @@
 name: Python Dependency Audit
 
 on:
-  pull_request:
+  push:
+    branches: [main]
     paths:
       - "requirements.txt"
+      - ".github/workflows/**"
   schedule:
-    - cron: "0 8 * * 1"
+    - cron: "0 8 * * 4"
   workflow_dispatch:
 
 permissions:
