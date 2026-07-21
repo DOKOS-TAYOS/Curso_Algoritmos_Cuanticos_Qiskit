@@ -1,22 +1,22 @@
 # Quantum Computing Framework
-qiskit==2.4.1
+qiskit==2.5.0
 qiskit-aer==0.17.2
-qiskit-ibm-runtime==0.47.0
+qiskit-ibm-runtime==0.48.0
 
 # Numerical Computing
-numpy==2.4.5
+numpy==2.5.1
 
 # Scientific Computing
-scipy==1.17.1
+scipy==1.18.0
 
 # Visualization
-matplotlib==3.10.9
+matplotlib==3.11.1
 pylatexenc==2.10
-quantum-circuit-drawer==1.1.1
+quantum-circuit-drawer==1.1.2
 
 # Jupyter Support
 jupyter==1.1.1
-ipykernel==7.2.0
+ipykernel==7.3.0
 ipympl==0.10.0
 ipywidgets==8.1.8
 

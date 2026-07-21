@@ -1,6 +1,6 @@
 # Curso de Algoritmos Cuánticos
 
-Curso de algoritmos cuánticos con implementaciones prácticas en **Qiskit 2.4.x**, organizado por secciones y temas. Cada tema incluye teoría y código ejecutable en notebooks de Jupyter (Python).
+Curso de algoritmos cuánticos con implementaciones prácticas en **Qiskit 2.5.x**, organizado por secciones y temas. Cada tema incluye teoría y código ejecutable en notebooks de Jupyter (Python).
 
 ## Contenido del curso
 
@@ -19,10 +19,10 @@ El material está estructurado en módulos progresivos, desde fundamentos hasta 
 ## Requisitos
 
 - **Python** 3.10+
-- **Qiskit** 2.4.x (el curso usa 2.4.1)
+- **Qiskit** 2.5.x (el curso usa 2.5.0)
 - **qiskit-aer** para simulación local
 
-> **Nota:** Qiskit 2.4 introdujo cambios importantes respecto a versiones anteriores. Muchos tutoriales antiguos no son compatibles. Usa la versión indicada para seguir los ejemplos correctamente.
+> **Nota:** Qiskit 2.x introdujo cambios importantes respecto a versiones anteriores. Muchos tutoriales antiguos no son compatibles. Usa la versión indicada para seguir los ejemplos correctamente.
 
 ## Instalación
 
