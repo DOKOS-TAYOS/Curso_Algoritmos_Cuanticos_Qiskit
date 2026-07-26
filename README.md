@@ -82,6 +82,12 @@ Curso_Cuantica/
 └── README.md
 ```
 
+## Figuras / Assets
+
+- **Diagramas docentes embebidos** (ilustraciones conceptuales, esquemas de algoritmos, etc. que no son salida directa de código): obras **originales** del autor del curso (Alejandro Mata Ali / DOKOS-TAYOS). No son escaneos de papers de terceros ni requieren permiso de reutilización AIP/arXiv.
+- **Gráficas y circuitos generados por código** (Matplotlib, Qiskit drawer y visualizadores similares): se producen al ejecutar los notebooks; las librerías siguen bajo sus propias licencias.
+- Detalle de atribución: [NOTICE](NOTICE).
+
 ## Recursos
 
 - [Documentación oficial de Qiskit](https://www.ibm.com/quantum/qiskit)
@@ -89,4 +95,4 @@ Curso_Cuantica/
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+El contenido del curso está bajo la licencia [MIT](LICENSE). **Qiskit** y el resto de dependencias de `requirements.txt` **no** se incluyen (vendorean) en este repositorio: se instalan por separado y se rigen por sus propias licencias. Ver también [NOTICE](NOTICE).
